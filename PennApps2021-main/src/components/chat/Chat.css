@@ -1,0 +1,21 @@
+.chat__background{
+    position: absolute;
+
+    z-index: -2;
+}
+
+.chat__back-layout{
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.chat-detail__back{
+    padding: 8px;
+
+    background-color: transparent;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border: none;
+
+    background-image: url('../../images/UI/back.png');
+}

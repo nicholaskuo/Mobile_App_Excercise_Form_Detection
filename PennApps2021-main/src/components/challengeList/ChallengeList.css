@@ -1,0 +1,23 @@
+.challenge-list__header{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    
+    color: #FFFFFF;
+
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+.challenge-list{
+    padding-top: 30px;
+    background: linear-gradient(360deg, #1A2371 -4.37%, #4B50BD 103.98%);
+
+    height: calc(100vh - 30px);
+}
+
+.challenge-list__cards{
+    margin-top: 10px;
+    margin-left: 40px;
+}

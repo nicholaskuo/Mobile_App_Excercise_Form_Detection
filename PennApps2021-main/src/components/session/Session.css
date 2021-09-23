@@ -1,0 +1,21 @@
+.session__exit-layout{
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.session-detail__exit{
+    padding: 8px;
+
+    background-color: transparent;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border: none;
+
+    background-image: url('../../images/UI/exit.png');
+}
+
+.session__footer{
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+}

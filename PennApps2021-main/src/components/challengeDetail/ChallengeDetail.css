@@ -1,0 +1,127 @@
+.challenge-detail__background{
+    position: absolute;
+
+    z-index: -2;
+}
+
+.challenge-detail__footer-background{
+    position: absolute;
+    bottom: 0px;
+    z-index: -1;
+}
+
+.challenge-detail__header-gradient{
+    position: absolute;
+    z-index: -1;
+}
+
+.challenge-detail__back-layout{
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.challenge-detail__back{
+    padding: 8px;
+
+    background-color: transparent;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border: none;
+
+    background-image: url('../../images/UI/back.png');
+}
+
+.challenge-detail__start{
+    padding: 20px;
+
+    background-color: transparent;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border: none;
+
+    margin-right: 20px;
+
+    background-image: url('../../images/UI/start.png');
+}
+
+.challenge-detail__chat{
+    padding: 20px;
+
+    background-color: transparent;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border: none;
+
+    margin-right: 20px;
+
+    background-image: url('../../images/UI/chat.png');
+}
+
+.challenge-detail__progress{
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 40px;
+}
+
+.challenge-detail__num{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 96px;
+
+    color: #FFFFFF;
+
+    margin: 0px;
+}
+
+.challenge-detail__dayscomp{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+
+    margin: 0px;
+}
+
+.challenge-detail__heading{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #1A2371;
+}
+
+.challenge-detail__description{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+
+    color: #1A2371;
+}
+
+.challenge-detail__text{
+    position: absolute;
+    top: calc(100vh - 260px);
+    width: 80%;
+
+    margin-left: 40px;
+}
+
+.challenge-detail__buttons{
+    position: absolute;
+    bottom: 30px;
+
+    margin-left: 40px;
+}

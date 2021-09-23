@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.challenge-card{
+    position: relative;
+    height: 80px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    filter: drop-shadow(4px 4px 15px rgba(35, 24, 67, 0.5));
+}
+
+.challenge-card__link{
+    text-decoration: none;
+    position: relative;
+}
+
+.challenge-card__header{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    width: 200px;
+
+    color: #FFFFFF;
+
+    margin-bottom: 10px;
+    margin-left: 20px;
+    z-index: 15;
+
+    position: absolute;
+
+}
+
+.challenge-card__description{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    width: 200px;
+
+    color: #FFFFFF;
+
+    margin-left: 20px;
+    top: 35px;
+    z-index: 15;
+
+    position: absolute;
+}
+
+.challenge-card__img{
+    position: absolute;
+    z-index: 10;
+}
